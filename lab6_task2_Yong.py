@@ -28,11 +28,11 @@ pm = [[0,0,0,1,1,1,1,1,0,0,0],
 
 #function
 
-def displayObject(f1,x,y):
+def displayObject(obj,x=0,y=0):
     lcd.clear()
     lcd.show()
     y1=y
-    for i in f1:
+    for i in obj:
         y1+=1
         x1=x
         for j in i:                
