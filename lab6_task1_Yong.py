@@ -25,7 +25,7 @@ def displayText(text,lcd,x,y):
 def welcome():
     displayText('etch a skech',lcd,20,10)
     time.sleep(1.2)
-    clearScreen
+    clearScreen(lcd)
 
 
 welcome()
